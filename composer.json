@@ -1,0 +1,33 @@
+{
+    "type": "library",
+    "name": "alltalentbank/backend-laravel-bridge",
+    "description": "Backend Laravel Bridge",
+    "keywords": [
+        "backend",
+        "helper",
+        "library",
+        "php"
+    ],
+    "homepage": "https://github.com/talentsystembank/backend-laravel-bridge",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "https://nguyenanhung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
