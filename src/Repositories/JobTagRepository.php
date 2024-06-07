@@ -11,8 +11,8 @@
 
 namespace App\Repositories;
 
-if (!class_exists('App\Repositories\UserRepository')) {
-    class UserRepository extends \nguyenanhung\AllTalentBank\Backend\MasterCoreService\Repository\UserRepository
+if (!class_exists('App\Repositories\JobTagRepository')) {
+    class JobTagRepository extends \nguyenanhung\AllTalentBank\Backend\MasterCoreService\Repository\JobTagRepository
     {
 
     }

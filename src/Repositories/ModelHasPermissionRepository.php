@@ -11,8 +11,8 @@
 
 namespace App\Repositories;
 
-if (!class_exists('App\Repositories\UserRepository')) {
-    class UserRepository extends \nguyenanhung\AllTalentBank\Backend\MasterCoreService\Repository\UserRepository
+if (!class_exists('App\Repositories\ModelHasPermissionRepository')) {
+    class ModelHasPermissionRepository extends \nguyenanhung\AllTalentBank\Backend\MasterCoreService\Repository\ModelHasPermissionRepository
     {
 
     }
